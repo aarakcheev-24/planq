@@ -1,0 +1,24 @@
+# Виртуальные окружения
+venv/
+.venv/
+env/
+.env/
+
+# Кэш/временные/байткод
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDE/OS
+.DS_Store
+.idea/
+.vscode/
+
+# Локальные данные
+.planq/
+*.log
+
+# Большие/сырьевые данные (если появятся)
+data/raw/
